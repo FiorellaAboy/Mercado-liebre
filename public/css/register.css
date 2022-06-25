@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 15px;
+}
+
+p{
+    font-size: 15px;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo,
+header nav{
+    width: 50%;
+}
+
+header div.logo{
+    padding: 5px;
+}
+
+header div .form{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+header nav{
+    font-size: 12px;
+    padding: 8px;
+    display: grid;
+    text-align: right;
+    right: auto;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+div.last-visit,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount{
+    width: 70%;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+
+  form {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.nombre-de-usuario{
+    display: grid;
+    padding: 15px;
+}
+
+  .form-item {
+    width: 100%;
+  }
+
+  form label {
+    margin-bottom: 10px;
+    font-family: 'Shippori Antique', sans-serif;
+  }
+
+  form input {
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    outline: none;
+    margin-bottom: 20px;
+  }
+
+  .input-intereses {
+    width: 100%;
+    display: block;
+  }
+
+  form button {
+    border-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px auto;
+    min-width: 100px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+.enviar,
+.eliminar{
+    background-color: #666;
+    text-decoration: underline;
+    }
+
+    button:hover{
+        color: rgb(255, 230, 2);
+    }
+
+  .article-footer {
+    display: flex;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.h3-p{
+    margin: 5px;
+    color: #666;
+}
+
+.h3-footer{
+    background-color: #EAC926;
+    padding: 5px;
+}
+
+footer p{
+    border: 2px solid #EAC926;
+    padding: 10px;
+    text-align: center;
+}
+
+.Copyrigth{
+    text-align: center;
+    padding: 20px;
+}
+
+ 
+@media (min-width: 361px){
+    main section article .description{
+        display: block;
+    }
+    
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+    
+    .price,
+    .discount{
+        width: 50%;
+    }
+}
+
+/* footer */
+
+.article-footer{
+    text-align: center;
+    line-height: 25px;
+}
+
+@media (min-width: 769px){
+    main section div.products article{
+        width: 22%;
+    }
+}
